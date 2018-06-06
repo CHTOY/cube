@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
+	<title>三階ルービックキューブ入門教程</title>
+	<meta name="viewport" content="user-scalable=no, width=375" />
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		img {
+			max-width: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+	<script type="text/javascript">
+		function getUrlParms(name){
+			var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null)
+				return unescape(r[2]);
+			return null;
+		}
+		var lang = getUrlParms("lang");
+		var type = getUrlParms("type");
+	</script>
 </head>
 <body>
-	<h1>Hello, World!</h1>
+	<img src="./images/3_01.jpg">
+	<img src="./images/3_02.jpg">
+	<img src="./images/3_03.jpg">
+	<img src="./images/3_04.jpg">
+	<img src="./images/3_05.jpg">
+	<img src="./images/3_06.jpg">
+	<img src="./images/3_07.jpg">
+	<img src="./images/3_08.jpg">
+	<img src="./images/3_09.jpg">
+	<img src="./images/3_10.jpg">
 </body>
 </html>
